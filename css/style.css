@@ -94,15 +94,15 @@ body{
     margin-left: 20px;
 }
 .plan01{
-   background-color: rgb(136, 255, 255);
+    background-image: linear-gradient(to right bottom, #ffc362, #ffa067, #ff7a8a, #ff5fc1, #ef68ff);
    border-left: 4px solid black;
 }
 .plan02{
-    background-color: rgb(190, 255, 188);
+    background-image: linear-gradient(to right bottom, #62ffaa, #cadd53, #ffad47, #ff797f, #ff68cb);
     border-left: 4px solid rgb(0, 13, 255);
 }
 .plan03{
-    background-color: rgb(23, 233, 0);
+    background-image: linear-gradient(to right bottom, #9162ff, #00a7ff, #00d2ff, #00efc7, #71ff68);
     border-left: 4px solid black;
 }
 .Updates{
