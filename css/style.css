@@ -6,6 +6,8 @@ body{
 .title-section2{
     padding: 30px;
    padding-top: 15%;
+   background-color: rgba(0,0,0, 0.4);
+    height: 500px;
 }
 .title-section2 h1{
     color: whitesmoke;
@@ -17,16 +19,19 @@ body{
     font-size: 20px;
     color: whitesmoke;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 .title-section2 a{
-    color: whitesmoke;
+    color: rgb(51, 191, 0);
     margin-left: 45%;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(0, 0, 0);
     padding: 15px 25px;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
+    font-family: 'Anton', sans-serif;
 }
 .title-section3{
     padding: 30px;
@@ -41,17 +46,20 @@ body{
     font-size: 20px;
     color: rgb(11, 11, 11);
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 .title-section3 a{
     margin-top: 0;
     color: rgb(18, 18, 18);
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     background-color: rgb(255, 219, 219);
     padding: 50px 50px;
     border-radius: 10px;
+    font-family: 'Anton', sans-serif;
+    
 }
 .taka{
     display: flex;
@@ -59,6 +67,7 @@ body{
     padding-left: 20%;
     font-size: 25px;
     font-weight: 800;
+    font-family: 'Anton', sans-serif;
 }
 .taka a span{
     color: rgb(221, 33, 33);
@@ -78,31 +87,35 @@ body{
   border-bottom: 2px solid black;
 }
 #button{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(0, 0, 0);
     padding: 15px 25px;
     margin-top: 30px;
     margin-left: 45%;
-    color: blanchedalmond;
+    color: rgb(51, 191, 0);
 }
 .Donate-Plan{
     display: flex;
     padding:40px;
 }
+.Donate-Plan p{
+    font-family: 'Abril Fatface', cursive;
+}
 .plan01, .plan02, .plan03{
     
     padding:40px;
     margin-left: 20px;
+    box-shadow: 5px 10px 10px salmon;
 }
 .plan01{
-    background-image: linear-gradient(to right bottom, #ffc362, #ffa067, #ff7a8a, #ff5fc1, #ef68ff);
+    background-color: rgb(255, 219, 219);
    border-left: 4px solid black;
 }
 .plan02{
-    background-image: linear-gradient(to right bottom, #62ffaa, #cadd53, #ffad47, #ff797f, #ff68cb);
+    background-color: rgb(241, 208, 208);
     border-left: 4px solid rgb(0, 13, 255);
 }
 .plan03{
-    background-image: linear-gradient(to right bottom, #9162ff, #00a7ff, #00d2ff, #00efc7, #71ff68);
+    background-color: rgb(231, 194, 194);
     border-left: 4px solid black;
 }
 .Updates{
@@ -114,6 +127,7 @@ body{
 }
 .My-Updates p{
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 .email-section{
     width: 100%;
@@ -132,7 +146,7 @@ body{
     height: 40px;
     font-size: 20px;
     font-weight: 700;
-    border: 5px solid rgb(32, 32, 32);
+    border: 5px solid rgb(0, 0, 0);
     padding: 5px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 0px 0px 10px;
@@ -140,11 +154,11 @@ body{
 .email a{
     margin-left: 0;
     padding: 15px 30px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 25px;
     font-weight: 800;
-    color: blanchedalmond;
+    color: rgb(51, 191, 0);
     border-radius: 0px 10px 10px 0px;
 }
 footer{
@@ -202,6 +216,7 @@ footer{
     padding: 10px;
     text-align: center;
     color: rgb(16, 16, 16);
+    
 }
 .CONTENT p a{
     
@@ -209,8 +224,9 @@ footer{
     outline: 0;
     display: inline-block;
     padding: 15px;
-    color: white;
+    color: rgb(51, 191, 0);
     background-color: #000;
+    font-weight: bold;
     text-align: center;
     cursor: pointer;
     width: 90%;
