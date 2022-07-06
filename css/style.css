@@ -2,12 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.season02{
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+}
 .title-section2{
+    width: 60%;
     padding: 30px;
    padding-top: 15%;
-   background-color: rgba(0,0,0, 0.4);
-    height: 500px;
+   padding-left: 20%;
+   
 }
 .title-section2 h1{
     color: whitesmoke;
@@ -22,12 +26,12 @@ body{
     font-family: 'Abril Fatface', cursive;
 }
 .title-section2 a{
-    color: rgb(51, 191, 0);
-    margin-left: 45%;
+    color: rgb(235, 197, 197);
+    margin-left: 40%;
     font-size: 20px;
     font-weight: 800;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(138, 0, 133);
     padding: 15px 25px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
@@ -87,11 +91,11 @@ body{
   border-bottom: 2px solid black;
 }
 #button{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(138, 0, 133);
     padding: 15px 25px;
     margin-top: 30px;
     margin-left: 45%;
-    color: rgb(51, 191, 0);
+    color: rgb(235, 197, 197);
 }
 .Donate-Plan{
     display: flex;
@@ -146,19 +150,19 @@ body{
     height: 40px;
     font-size: 20px;
     font-weight: 700;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid rgb(138, 0, 133);
     padding: 5px;
-    background-color: rgb(255, 255, 255);
     border-radius: 10px 0px 0px 10px;
+    background-color: rgb(255, 255, 255);
 }
 .email a{
     margin-left: 0;
     padding: 15px 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(138, 0, 133);
     text-decoration: none;
     font-size: 25px;
     font-weight: 800;
-    color: rgb(51, 191, 0);
+    color: rgb(235, 197, 197);
     border-radius: 0px 10px 10px 0px;
 }
 footer{
@@ -176,9 +180,17 @@ footer{
     text-align: center;
     font-size: 30px;
     font-weight: 800;
+    color: rgb(199, 13, 193);
+}
+.footer-text h6{
+    
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1px;
 }
 .footer-text h5{
-    
+    line-height: 1px;
     text-align: center;
     font-size: 17px;
     font-weight: 700;
@@ -224,8 +236,8 @@ footer{
     outline: 0;
     display: inline-block;
     padding: 15px;
-    color: rgb(51, 191, 0);
-    background-color: #000;
+    color: rgb(235, 197, 197);
+    background-color: rgb(138, 0, 133);
     font-weight: bold;
     text-align: center;
     cursor: pointer;
