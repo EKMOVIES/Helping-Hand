@@ -2,6 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+header{
+    background-image: url("../images/sylet01.png");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0, 0.4);
+}
 .season02{
     background-color: rgba(0,0,0, 0.4);
     height: 100%;
