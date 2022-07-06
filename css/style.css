@@ -144,6 +144,7 @@ body{
 }
 .My-Updates p{
     text-align: center;
+    font-size: 20px;
     font-family: 'Abril Fatface', cursive;
 }
 .email-section{
@@ -225,6 +226,11 @@ footer{
 .FEATURED-CONTENT h3 a{
     text-decoration: none;
     font-size: 17px;
+}
+.heroes{
+    width: 60%;
+    margin-left: 20%;
+    font-size: 20px;
 }
 .FEATURED{
     display: flex;
