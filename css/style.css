@@ -95,12 +95,15 @@ body{
 }
 .plan01{
    background-color: rgb(136, 255, 255);
+   border-left: 4px solid black;
 }
 .plan02{
     background-color: rgb(190, 255, 188);
+    border-left: 4px solid rgb(0, 13, 255);
 }
 .plan03{
-    background-color: rgb(181, 225, 255);
+    background-color: rgb(23, 233, 0);
+    border-left: 4px solid black;
 }
 .Updates{
     width: 40%;
