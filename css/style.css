@@ -41,6 +41,14 @@ body{
     padding: 30px;
    padding-top: 5%;
 }
+.today{
+    width: 60%;
+    margin-left: 20%;
+}
+.plan-width{
+    width: 60%;
+    margin-left: 20%;
+}
 .title-section3 h1{
     color: rgb(1, 1, 1);
     font-size: 40px;
@@ -74,7 +82,7 @@ body{
     font-family: 'Anton', sans-serif;
 }
 .taka a span{
-    color: rgb(221, 33, 33);
+    color: rgb(199, 13, 193);
     font-size: 25px;
 }
 #Donate{
@@ -99,10 +107,15 @@ body{
 }
 .Donate-Plan{
     display: flex;
-    padding:40px;
+    
+}
+.Donate-Plan h1{
+    font-size: 25px;
+    text-align: left;
 }
 .Donate-Plan p{
-    font-family: 'Abril Fatface', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 .plan01, .plan02, .plan03{
     
@@ -194,6 +207,10 @@ footer{
     text-align: center;
     font-size: 17px;
     font-weight: 700;
+}
+.FEATURED-CONTENT p{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 .FEATURED-CONTENT h1{
     text-align: center;
